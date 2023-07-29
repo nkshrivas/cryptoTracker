@@ -1,0 +1,119 @@
+
+body{
+    height: 100%;
+}
+
+#crypto{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    background-color: #000;
+    
+}
+@media screen and (max-width: 768px){
+    #crypto{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+    
+
+body{
+    background-color: #000;
+}
+
+#crypto .column{
+   background-color: #1B1B1B;
+}
+#crypto .cards{
+    border-radius: 2px;
+    margin: 1rem;
+    max-height: 300px;
+    padding: 1rem;
+    box-shadow: 0 1px 2px rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+}
+#crypto .cards p{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0;
+}
+.symbol{
+    display: flex;
+}
+#crypto #name{
+    margin: 1.2rem;
+}
+#crypto h4{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0;
+
+}
+.toggle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    height: 100%;
+    width: auto;
+}
+.toggle__option{
+    border-radius: 2px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.toggle__option:active{
+    text-decoration: underline ;
+}
+#crypto .cards:hover{
+    transform: scale(1.05);
+    box-shadow: 0 1px 2px rgb(255, 255, 255);
+}
+#crypto .sale{
+    border:1px solid;
+    padding:2%;
+}
+#crypto img{
+    width: 20%;
+    height: 20%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#cryptoList{
+    display:flex;
+    flex-direction: column;
+    height: fit-content;
+    color:white;
+    width: auto;
+    background-color: #000;
+
+}
+
+#cryptoList .cards{
+    display: flex;
+    padding: 3%;
+
+}
+
+#cryptoList img{
+    width:50px;
+    height:50px;
+    margin:15px;
+
+}
+#cryptoList .container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+#cryptoList .sale{
+    border:1px solid;
+    padding:2%;
+    align-items: center;
+    
+
+}
