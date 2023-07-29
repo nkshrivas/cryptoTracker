@@ -4,7 +4,7 @@ let data = [];
   // Function to fetch the data from the JSON file
 
 
-let isGridView = true; // Flag to keep track of the current view mode
+let isGridView = false; // Flag to keep track of the current view mode
 
 function sale(price) {
   if (price > 0) {
