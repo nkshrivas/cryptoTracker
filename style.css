@@ -127,3 +127,45 @@ body{
     
 
 }
+#cryptoList .sale .symbol{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
+
+@media screen and (max-width: 768px){
+    #cryptoList{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        color:white;
+        width: auto;
+        background-color: #000;
+    }
+    #cryptoList .cards{
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+    }
+    #cryptoList .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10%;
+    }
+    #cryptoList .sale{
+        border:1px solid;
+        padding:2%;
+        align-items: center;
+    }
+    #cryptoList .sale .symbol{
+        display: flex;
+        align-items: center;
+        margin: 5%;
+    }
+    #cryptoList img{
+        width:50px;
+        height:50px;
+        margin:15px;
+    }
+}
